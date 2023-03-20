@@ -1,6 +1,6 @@
 
 function fizz(numero)
 {
-  return true;
+  return "fizz";
 }
 export default fizz;
