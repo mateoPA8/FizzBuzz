@@ -1,5 +1,8 @@
 function buzz(numero)
 {
-  return "buzz";
+    if(numero==5)
+    {
+        return "buzz";
+    }
 }
 export default buzz;
