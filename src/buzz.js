@@ -4,5 +4,6 @@ function buzz(numero)
     {
         return "buzz";
     }
+    return numero.toString();
 }
 export default buzz;

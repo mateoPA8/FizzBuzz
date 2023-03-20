@@ -32,3 +32,4 @@ describe("FizzBuzz", () => {
     expect(fizzbuzz(15)).toEqual("fizzbuzz");
   });
 });
+

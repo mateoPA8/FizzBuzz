@@ -4,6 +4,7 @@ function fizzbuzz(numero)
     {
         return "fizzbuzz"
     }
+    return numero.toString();
 }
 
 export default fizzbuzz;
