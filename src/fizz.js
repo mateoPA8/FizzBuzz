@@ -5,6 +5,10 @@ function fizz(numero)
     {
         return "fizz";
     }
+    if(numero%3==0)
+    {
+        return "fizz";
+    }
 
 }
 export default fizz;

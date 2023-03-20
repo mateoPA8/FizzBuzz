@@ -13,3 +13,8 @@ describe("FizzBuzz", () => {
   });
 });
 
+describe("FizzBuzz", () => {
+  it("deberia salir fizz si es multiplo de 3", () => {
+    expect(fizz(6)).toEqual("fizz");
+  });
+});
