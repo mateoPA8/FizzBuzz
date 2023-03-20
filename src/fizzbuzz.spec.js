@@ -1,5 +1,6 @@
 import fizz from "./fizz.js";
 import buzz from "./buzz.js";
+
 describe("FizzBuzz", () => {
   it("deberia salir fizz si es 3", () => {
     expect(fizz(3)).toEqual("fizz");
@@ -11,3 +12,4 @@ describe("FizzBuzz", () => {
     expect(buzz(5)).toEqual("buzz");
   });
 });
+
