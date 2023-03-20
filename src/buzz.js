@@ -1,6 +1,6 @@
 function buzz(numero)
 {
-    if(numero==5)
+    if(numero%5==0)
     {
         return "buzz";
     }

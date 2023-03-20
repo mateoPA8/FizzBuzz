@@ -1,10 +1,7 @@
 
 function fizz(numero)
 {
-    if(numero==3)
-    {
-        return "fizz";
-    }
+    
     if(numero%3==0)
     {
         return "fizz";
