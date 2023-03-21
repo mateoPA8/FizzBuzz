@@ -1,7 +1,6 @@
 import fizz from "./fizz.js";
 import buzz from "./buzz.js";
-import fizzbuzz from "./fizzbuzz.js";
-
+import {fizzbuzz, generarLista} from "./fizzbuzz";
 describe("FizzBuzz", () => {
   it("deberia salir fizz si es 3", () => {
     expect(fizz(3)).toEqual("fizz");
@@ -33,3 +32,8 @@ describe("FizzBuzz", () => {
   });
 });
 
+describe("FizzBuzz", () => {
+  it("generar la lista y que salga si es fizz o buzz o fizzbuzz", () => {
+    expect(generarLista(15)).toEqual("1, 2, fizz, 4, buzz, fizz, 7, 8, fizz, buzz,11,fizz,13,14,fizzbuzz");
+  });
+});
